@@ -1,7 +1,7 @@
 # Neurox
 
 [![crates.io](https://img.shields.io/crates/v/neurox.svg)](https://crates.io/crates/neurox)
-[![docs.rs](https://docs.rs/neurox/badge.svg)](https://docs.rs/neurox)
+[![docs.rs](https://docs.rs/neurox/badge.svg)](https://docs.rs/neurox/0.1.0/neurox/)
 [![License](https://img.shields.io/crates/l/neurox.svg)](./LICENSE)
 [![Rust](https://img.shields.io/badge/rust-1.70+-blue.svg)](https://www.rust-lang.org/)
 
