@@ -9,35 +9,36 @@
 
 ## Overview
 
-**Neurox** is a minimal, extendable neural network library written in Rust, designed as a starting point for building and experimenting with deep learning models.  
-It provides foundational tensor operations, simple feed-forward neural network layers, activation functions, and a basic training loop all CPU-based with GPU acceleration planned for future versions.
+**Neurox** is a minimalist and extendable numerical computation library written in Rust.  
+It provides core tensor operations, fundamental mathematical building blocks, and abstractions to build and experiment with machine learning models including but not limited to neural networks.  
+All operations currently run on CPU, with plans for GPU acceleration support in future versions.
 
-This crate is perfect for:
-- Learning how neural networks work under the hood  
-- Building small-scale neural models from scratch in Rust  
-- Laying groundwork for advanced GPU-accelerated deep learning
+This crate is ideal for:
+- Learning and experimenting with numerical computation primitives  
+- Developing small-scale ML models from scratch in Rust  
+- Serving as a foundation for more advanced GPU-accelerated ML frameworks
 
 ---
 
 ## Features (v0.1.0)
 
-- Multi-dimensional `Tensor` struct for numerical data storage  
-- Core operations: matrix multiplication, element-wise activations (`ReLU`)  
-- Simple `Model` struct supporting multiple dense layers with bias  
-- Forward pass implementation for inference  
-- Basic random weight initialization  
-- Designed with a device abstraction for future GPU support  
+- Multi-dimensional `Tensor` struct for efficient numerical data storage  
+- Core operations: matrix multiplication, element-wise activations (e.g., `ReLU`)  
+- Flexible `Model` struct supporting layered architectures with bias  
+- Forward pass computation suitable for inference and prototyping  
+- Random weight initialization utilities  
+- Device abstraction designed to enable future GPU support  
 
 ---
 
 ## Planned Features
 
-- Training loop with backpropagation and optimizers (SGD, Adam)  
-- Support for more activation functions (sigmoid, tanh)  
-- GPU acceleration using CUDA / WGPU  
-- Additional layer types (Conv2D, LSTM)  
-- Serialization / model saving and loading  
-- Dataset utilities and data loaders
+- Training loops with backpropagation and optimizers (SGD, Adam)  
+- Expanded activation functions (sigmoid, tanh, etc.)  
+- GPU acceleration using CUDA, OpenCL, or WGPU  
+- Additional layer types (Convolutional, Recurrent, etc.)  
+- Serialization and model persistence utilities  
+- Dataset handling and data loading features
 
 ---
 
