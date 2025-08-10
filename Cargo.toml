@@ -2,6 +2,15 @@
 name = "neurox"
 version = "0.1.0"
 edition = "2024"
+authors = ["Yuvraj Biswal <yuvrajbiswalofficial@gmail.com>"]
+description = "A  Rust crate providing core building blocks for numerical computing and machine learning, including tensor operations, model abstractions, and future GPU acceleration support."
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Yuvraj-cyborg/neurox"
+homepage = "https://github.com/Yuvraj-cyborg/neurox"
+keywords = ["machine-learning", "neural-network", "tensor", "deep-learning", "rust", "numerical-computing"]
+categories = ["machine-learning", "algorithms", "data-structures", "science"]
+
 
 [dependencies]
 rand = "0.9.2"
