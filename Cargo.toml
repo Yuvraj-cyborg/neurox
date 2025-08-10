@@ -1,6 +1,6 @@
 [package]
 name = "neurox"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2024"
 authors = ["Yuvraj Biswal <yuvrajbiswalofficial@gmail.com>"]
 description = "A  Rust crate providing core building blocks for numerical computing and machine learning, including tensor operations, model abstractions, and future GPU acceleration support."
