@@ -8,7 +8,7 @@ license = "MIT"
 readme = "README.md"
 repository = "https://github.com/Yuvraj-cyborg/neurox"
 homepage = "https://github.com/Yuvraj-cyborg/neurox"
-keywords = ["machine-learning", "neural-network", "tensor", "deep-learning", "rust", "numerical-computing"]
+keywords = ["machine-learning", "neural-network", "tensor", "deep-learning", "numerical-computing"]
 categories = ["machine-learning", "algorithms", "data-structures", "science"]
 
 
